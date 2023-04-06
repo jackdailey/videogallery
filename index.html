@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Motley Crue Video Gallery</title>
+</head>
+<body>
+    <header>
+        <img src="images/mc-logo.png" alt="mc logo">
+        <h2>Motley Crue Video Gallery</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#vid1">Video 1</a></li>
+            <li><a href="#vid2">Video 2</a></li>
+            <li><a href="#vid3">Video 3</a></li>
+            <li><a href="#vid4">Video 4</a></li>
+            <li><a href="#vid5">Video 5</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article id="vid1">
+            <h4>Video 1</h4>
+            <div class="videowrapper caption"><iframe src="https://player.vimeo.com/video/28159442?h=7801d9807c&color=7d331f" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+        </article>
+        <article id="vid2">
+            <h4>Video 2</h4>
+            <div class="videowrapper caption"><iframe src="https://player.vimeo.com/video/76696721?h=45b52bdfd8" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+        </article>
+        <article id="vid3">
+            <h4>Video 3</h4>
+            <div class="videowrapper caption"><iframe src="https://player.vimeo.com/video/3705723?h=3d9d78b2b5" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+        </article>
+        <article id="vid4">
+            <h4>Video 4</h4>
+            <div class="videowrapper caption"><iframe src="https://www.youtube.com/embed/xtGbXH5DZHc" title="The Fabulous Life of Mötley Crüe (1/2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        </article>
+        <article id="vid5">
+            <h4>Video 5</h4>
+            <div class="videowrapper caption"><iframe src="https://player.vimeo.com/video/78708733?h=3ce6467ed5" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+        </article>
+
+        <div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Top</button></div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyright"></span> Jackson Dailey</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
